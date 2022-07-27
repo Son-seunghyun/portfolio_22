@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>gsk</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../style/style.css">
+    <!-- 폰 트 -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- 스 크 립 트 -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js">
+    </script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="js/Counter-Up-master/jquery.counterup.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="l_wrapper">
+            <div class="header-line"></div>
+            <nav>
+                <ul class="header-box clearfix">
+                    <li>
+                        <div class="header-select">
+                            <select onchange="if(this.value) location.href=(this.value);">
+                                <option value="http://mecayours.co.kr/archive/01.autron/detail.html">현대오트론</option>
+                                <option value="http://mecayours.co.kr/archive/02.epostbank/detail.html">우체국보험</option>
+                                <option value="http://mecayours.co.kr/archive/03.ibk/detail.html">IBK</option>
+                                <option selected value="http://mecayours.co.kr/archive/04.gsk/detail.html">gsk</option>
+                                <option value="http://mecayours.co.kr/archive/05.oci/detail.html">OCI</option>
+                                <option value="http://mecayours.co.kr/archive/06.mdi/detail.html">MDI Medical</option>
+                                <option value="http://mecayours.co.kr/archive/07.sgiway/detail.html">SGI</option>
+                            </select>
+                            <span class="material-icons btn_more">expand_more</span>       
+                        </div>
+                    </li>
+                    <li>
+                        <div class="header-preview">
+                            <a href="./sub.html">미리보기</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="title">
+        <div class="l_wrapper">
+            <h1>gsk</h1>    
+        </div>
+    </div>
+    
+    <div class="contents">
+        <div class="l_wrapper">
+            <section>
+                <div>
+                    <div class="l_wrapper">
+                        <h2>Publishing</h2>
+                        <div class="content-inside">
+                            <ul>
+                                <li>Version : 1.0</li>
+                                <li>Date : 2021. 04. 30</li>
+                                <li>Author : Son Seunghyun(shson@mecayours.co.kr)</li>
+                            </ul>
+                    </div>       
+                    </div>
+                </div>
+            </section>
+            <section>
+               <div class="l_wrapper">
+                    <h2>Design system</h2>
+                    <div class="content-inside">
+                        <ul>
+                            <li>Font : Roboto, Noto Sans KR</li>
+                            <li>Main color : #EC6608</li>
+                            <li>Grid : 360px</li>
+                        </ul>
+                    </div>       
+               </div>
+            </section>
+            <section>
+               <div class="l_wrapper">
+                    <h2>Issue</h2>
+                    <div class="content-inside">
+                        <ul>
+                            <li>
+                                <h3>Issue 1</h3>
+                                <p>1. 인트로페이지 백그라운드 이미지</p>
+                                <p>- 인트로 페이지에서 기기별 height 값에 따라 백그라운드 이미지와 내부 텍스트간의 충돌</p>
+                                <div class="issue-inside">
+                                    <p>.intro{
+                                            width: 100vw;
+                                            height: 100vh;
+                                            position: fixed;
+                                            left: 0;
+                                            top: 0;
+                                            z-index: 99999;
+                                    };</p>
+                                </div>
+                            </li>
+                            <li>
+                                <h3>Issue 2</h3>
+                                <p>2. 제작 후 납품</p>
+                                <p>- 제작 후 업로드 이슈로 인하여 납품이 보류되었다.</p>
+                            </li>
+                        </ul>
+                    </div>       
+               </div>
+            </section>
+        </div>    
+    </div>
+    
+    <!-- 스 크 립 트 -->
+    <script src="js/script.js"></script>
+</body>
+</html>

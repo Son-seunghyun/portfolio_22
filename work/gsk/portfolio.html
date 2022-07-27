@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>gsk consumer healthcare korea</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./style.css">
+    <!-- 폰 트 -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- 스 크 립 트 -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js">
+    </script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="js/Counter-Up-master/jquery.counterup.min.js"></script>
+</head>
+<body>
+    <!-- 헤 더 -->
+    <div class="header">
+        <div class="header-logo">
+            <a href="index.html">
+                <img src="image/main/GSK_logo2.png">
+            </a>
+        </div>
+        <div class="header-menu">
+            <span class="material-icons">menu</span>
+        </div>
+    </div>
+    <div class="header-side">
+        <div class="header-side-top">
+            <div class="header-side-top-logo">
+                <img src="image/main/GSK_logo2.png">
+            </div>
+            <div class="header-side-top-btn">
+                <span class="material-icons">close</span>
+            </div>
+        </div>
+        <div class="header-side-nav">
+            <ul>
+                <li><a href="./index.html">Company Overview</a></li>
+                <li><a href="./whoweare.html">Who We Are</a></li>
+                <li><a href="./portfolio.html">Brand Portfolio</a></li>
+                <li>
+                    <a href="#">Power Brand</a>
+                    <div class="header-powerbrand">
+                        <ul class="clearfix">
+                            <li class="l_col l_col_6_12"><a href="detail_ct.html">centrum</a></li>
+                            <li class="l_col l_col_6_12"><a href="detail_sd.html">sensodyne</a></li>
+                            <li class="l_col l_col_6_12"><a href="detail_tf.html">theraflu</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="./csr.html">CSR Story</a></li>
+            </ul>
+        </div>
+        <div class="header-side-sns">
+                <h3>Brand Instargram </h3>
+                <ul>
+                    <li class="clearfix">
+                        <a href="https://www.instagram.com/centrum_kr/?hl=ko" target='_blank'>
+                            <div class="sns-logo l_col l_col_3_12">
+                                <img src="image/main/icon/insta_ct.png">
+                            </div>
+                            <div class="sns-title l_col l_col_9_12">
+                                <p>센트룸</p>
+                                <p>@centrum_kr</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="clearfix">
+                        <a href="https://www.instagram.com/theraflu_korea/" target='_blank'>
+                            <div class="sns-logo l_col l_col_3_12">
+                                <img src="image/main/icon/insta_tf.png">
+                            </div>
+                            <div class="sns-title l_col l_col_9_12">
+                                <p>테라플루</p>
+                                <p>@theraflu_korea</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="clearfix">
+                        <a href="https://www.instagram.com/sensodyne_kr/" target='_blank'>
+                            <div class="sns-logo l_col l_col_3_12">
+                                <img src="image/main/icon/insta_sd.png">
+                            </div>
+                            <div class="sns-title l_col l_col_9_12">
+                                <p>센소다인</p>
+                                <p>@sensodyne_kr</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        <div class="header-side-bottom clearfix">
+            <div class="header-side-bottom-btn l_col l_col_6_12">
+                <a href='https://kr.gsk.com/ko-kr/' target='_blank'>홈페이지</a>
+            </div>
+            <div class="header-side-bottom-btn l_col l_col_6_12">
+                <a href='https://www.gskshop.co.kr/' target='_blank'>쇼핑몰</a>
+            </div>
+        </div>    
+    </div>
+    <div class="header-side-overlay"></div>
+    
+    <!-- 컨 텐 츠 -->
+    <section>
+        <div class="l_wrapper">
+            <div class="portfolio-title">
+                <h2>Brand Portfolio</h2>
+            </div>
+            <div class="portfolio-list">
+                <ul>
+                    <li>
+                        <div class="portfolio-list-title">
+                            <h3>영양관리 및 웰니스<em>Wellness</em></h3>
+                            <span class="material-icons">keyboard_arrow_down</span>
+                        </div>
+                        <div class="portfolio-list-inside">
+                            <div class="portfolio-detail">
+                                <div class="portfolio-section">
+                                    <div class="portfolio-section-title">
+                                        <h3>센트룸</h3>
+                                    </div>
+                                    <div class="portfolio-section-field">
+                                        <img src="image/portfolio/2/portfolio_centrum.png">
+                                        <p>성별·연령별 맞춤형으로 설계한 종합비타민 세계 1위<br>기능별 특화된 집중영양케어 비타민 시리즈 연속 출시</p>
+                                        <ul>
+                                            <li>성인 남녀 및 50세 이상 실버 남녀 종합 비타민</li>
+                                            <li>만 3세~14세 성장발육기 종합 비타민</li>
+                                            <li>뼈근육 건강, 활력 강화, 장건강 특화 비타민</li>
+                                            <li>구미 비타민, 수용성 발포 비타민</li>
+                                        </ul>
+                                        <div class="portfolio-line-up">
+                                            <div class="line-up-inside">
+                                                <h4>Line-up</h4>
+                                                <p>포맨, 포우먼, 실버 포맨, 실버 포우먼, 멀티 구미,<br>포 키즈, 아쿠아비타, 칼슘+D 미니, 포커스 에너지,<br>포커스 신바이오틱스 / 약국전용 - 프로, 실버 프로</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-section">
+                                    <div class="portfolio-section-title">
+                                        <h3>센티렉스</h3>
+                                    </div>
+                                    <div class="portfolio-section-field">
+                                        <img src="image/portfolio/2/portfolio_sentirex.png">
+                                        <p>병중, 병후 체력 회복을 위한 과학적으로 처방된<br>25가지 멀티비타민과 미네랄 함유</p>
+                                        <div class="portfolio-line-up">
+                                            <div class="line-up-inside">
+                                                <h4>Line-up</h4>
+                                                <p>어드밴스 정, 실버 어드밴스 정</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-section">
+                                    <div class="portfolio-section-title">
+                                        <h3>칼트레이트</h3>
+                                    </div>
+                                    <div class="portfolio-section-field">
+                                        <img src="image/portfolio/2/portfolio_kaltrate.png">
+                                        <p>건강한 뼈를 위한 칼슘 보충제</p>
+                                        <div class="portfolio-line-up">
+                                            <div class="line-up-inside">
+                                                <h4>Line-up</h4>
+                                                <p>디 400정, 플러스 디 500 정</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="portfolio-list-title">
+                            <h3>구강 건강관리<em>Oral Health</em></h3>
+                            <span class="material-icons">keyboard_arrow_down</span>
+                        </div>
+                        <div class="portfolio-list-inside">
+                            <div class="portfolio-detail">
+                                <div class="portfolio-section">
+                                    <div class="portfolio-section-title">
+                                        <h3>센소다인</h3>
+                                    </div>
+                                    <div class="portfolio-section-field">
+                                        <img src="image/portfolio/2/portfolio_sensodyne.png">
+                                        <p>민감성 치아 관리를 위한<br>세계 1위 센서티브케어 치약</p>
+                                        <ul>
+                                            <li>민감성 치아(시린이) 완화 및 예방</li>
+                                            <li>사용 2주 후부터 시린이 개선 효과</li>
+                                            <li>충치예방, 구취제거, 상쾌함 제공</li>
+                                        </ul>
+                                        <div class="portfolio-line-up">
+                                            <div class="line-up-inside">
+                                                <h4>Line-up</h4>
+                                                <p>멀티케어, 후레쉬, 오리지날, 화이트, 딥클린</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-section">
+                                    <div class="portfolio-section-title">
+                                        <h3>파로돈탁스</h3>
+                                    </div>
+                                    <div class="portfolio-section-field">
+                                        <img src="image/portfolio/2/portfolio_parodontax.png">
+                                        <p>54개국에서 판매되는 글로벌 잇몸케어 치약</p>
+                                        <ul>
+                                            <li>치주염, 치은염, 잇몸질환 완화 및 예방</li>
+                                            <li>소디움바이카보네이트 성분이 잇몸질환의<br>원인인 플라그 세균막 제거</li>
+                                            <li>청량감 및 개운함 지속 강화<br>(쿨링민트, 클래식 검케어)</li>
+                                        </ul>
+                                        <div class="portfolio-line-up">
+                                            <div class="line-up-inside">
+                                                <h4>Line-up</h4>
+                                                <p>데일리 후로라이드, 쿨링민트, 클래식 검케어</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-section">
+                                    <div class="portfolio-section-title">
+                                        <h3>폴리덴트 의치세정제</h3>
+                                    </div>
+                                    <div class="portfolio-section-field">
+                                        <img src="image/portfolio/2/portfolio_polident.png">
+                                        <p>세계 1위 의치세정제</p>
+                                        <ul>
+                                            <li>틀니 흠집 없이 3분 만에 구취 유발균 99.9% 제거</li>
+                                            <li>쾌속 세정, 얼룩과 프라그 제거</li>
+                                        </ul>
+                                        <div class="portfolio-line-up">
+                                            <div class="line-up-inside">
+                                                <h4>Line-up</h4>
+                                                <p>5분 퀵 플러스 의치세정제, 나이트 의치세정제</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-section">
+                                    <div class="portfolio-section-title">
+                                        <h3>폴리덴트 의치부착재</h3>
+                                    </div>
+                                    <div class="portfolio-section-field">
+                                        <img src="image/portfolio/2/portfolio_polident02.png">
+                                        <p>틀니유지와 착용감을 향상시켜주는 의치부착재</p>
+                                        <ul>
+                                            <li>틀니가 잇몸에 잘 부착되도록 유지 및<br>착용감을 향상시켜줌</li>
+                                            <li>음식물이 잘 끼지 않게 도움</li>
+                                            <li>정교해진 미세노즐로 세밀한 도포 가능<br>(맥스 씰)</li>
+                                        </ul>
+                                        <div class="portfolio-line-up">
+                                            <div class="line-up-inside">
+                                                <h4>Line-up</h4>
+                                                <p>후레쉬(민트), 내추럴(무향), 맥스 씰</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="portfolio-list-title">
+                            <h3>호흡기<em>Respiratory</em></h3>
+                            <span class="material-icons">keyboard_arrow_down</span>
+                        </div>
+                        <div class="portfolio-list-inside">
+                            <div class="portfolio-detail">
+                                <div class="portfolio-section">
+                                    <div class="portfolio-section-title">
+                                        <h3>테라플루</h3>
+                                    </div>
+                                    <div class="portfolio-section-field">
+                                        <img src="image/portfolio/2/portfolio_teraflu.png">
+                                        <p>50여 개 시장에서 판매되는 신뢰받는 감기 증상 치료제</p>
+                                        <ul>
+                                            <li>차처럼 마시는 흡수 빠른 감기약</li>
+                                            <li>감기 제증상 완화</li>
+                                            <li>알레르기 증상 완화 (나이트타임)</li>
+                                            <li>기침 증상 완화 (콜드앤코프 데이타임)</li>
+                                        </ul>
+                                        <div class="portfolio-line-up">
+                                            <div class="line-up-inside">
+                                                <h4>Line-up</h4>
+                                                <p>데이타임(천연 레몬맛), 나이트타임(천연 레몬맛),<br>콜드앤코프 데이타임(천연 베리맛),<br>콜드앤코프 나이트타임(천연 허니 레몬맛)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-section">
+                                    <div class="portfolio-section-title">
+                                        <h3>오트리빈</h3>
+                                    </div>
+                                    <div class="portfolio-section-field">
+                                        <img src="image/portfolio/2/portfolio_otrivin.png">
+                                        <p>국소 비충혈 제거제 세계 1위</p>
+                                        <ul>
+                                            <li>신규 펌프 적용하여 사용 편리한 스프레이 타입 (오트리빈에스)</li>
+                                            <li>2분 만에 코막힘 해소, 12시간 지속 (오트리빈멘톨0.1%)</li>
+                                            <li>25초 만에 코막힘 해소, 12시간 지속 (오트리빈에스)</li>
+                                            <li>신생아 및 2세 이상 유아 전용 별도 제품</li>
+                                        </ul>
+                                        <div class="portfolio-line-up">
+                                            <div class="line-up-inside">
+                                                <h4>Line-up</h4>
+                                                <p>오트리빈에스, 멘톨 0.1%, 0.05%(유아용),<br>베이비내추럴(영유아용)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-section">
+                                    <div class="portfolio-section-title">
+                                        <h3>니코틴엘</h3>
+                                    </div>
+                                    <div class="portfolio-section-field">
+                                        <img src="image/portfolio/2/portfolio_nicotinl.png">
+                                        <p>흡연욕구를 효과적으로 억제해 주는 금연 보조제</p>
+                                        <ul>
+                                            <li>24시간 내 안정적으로 니코틴 배출</li>
+                                        </ul>
+                                        <div class="portfolio-line-up">
+                                            <div class="line-up-inside">
+                                                <h4>Line-up</h4>
+                                                <p>패치, 민트향 껌, 로젠즈</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="portfolio-list-title">
+                            <h3>통증 완화<em>Pain Relief</em></h3>
+                            <span class="material-icons">keyboard_arrow_down</span>
+                        </div>
+                        <div class="portfolio-list-inside">
+                            <div class="portfolio-detail">
+                                <div class="portfolio-section">
+                                    <div class="portfolio-section-title">
+                                        <h3>애드빌</h3>
+                                    </div>
+                                    <div class="portfolio-section-field">
+                                        <img src="image/portfolio/2/portfolio_advil.png">
+                                        <p>세계 1위 글로벌 진통제</p>
+                                        <ul>
+                                            <li>이부프로펜 성분으로 다양한 통증 및 염증 완화</li>
+                                            <li>혁신적인 리퀴드 기술로 15분 만에 빠른 진통 효과</li>
+                                        </ul>
+                                        <div class="portfolio-line-up">
+                                            <div class="line-up-inside">
+                                                <h4>Line-up</h4>
+                                                <p>리퀴겔(연질캡슐), 정</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-section">
+                                    <div class="portfolio-section-title">
+                                        <h3>볼타렌</h3>
+                                    </div>
+                                    <div class="portfolio-section-field">
+                                        <img src="image/portfolio/2/portfolio_volaten.png">
+                                        <p>세계 1위 국소 통증 완화 치료제</p>
+                                        <ul>
+                                            <li>강력한 소염 진통 성분의 바르는 진통제</li>
+                                            <li>에멀겔 제형으로 통증 부위를 자극없이 진정</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="portfolio-list-title">
+                            <h3>피부 건강<em>Skin Health</em></h3>
+                            <span class="material-icons">keyboard_arrow_down</span>
+                        </div>
+                        <div class="portfolio-list-inside">
+                            <div class="portfolio-detail">
+                                <div class="portfolio-section">
+                                    <div class="portfolio-section-title">
+                                        <h3>라미실</h3>
+                                    </div>
+                                    <div class="portfolio-section-field">
+                                        <img src="image/portfolio/2/portfolio_ramisil.png">
+                                        <p>국내 1위 무좀질환 치료제</p>
+                                        <ul>
+                                            <li>다양한 제형의 세계적인 외용  진균 치료제</li>
+                                            <li>다양한 백선치료, 쿨링 효과</li>
+                                        </ul>
+                                        <div class="portfolio-line-up">
+                                            <div class="line-up-inside">
+                                                <h4>Line-up</h4>
+                                                <p>원스 외용액, 크림, 덤겔, 스프레이</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-section">
+                                    <div class="portfolio-section-title">
+                                        <h3>드리클로</h3>
+                                    </div>
+                                    <div class="portfolio-section-field">
+                                        <img src="image/portfolio/2/portfolio_driclo.png">
+                                        <p>하루 한 번으로 땀 걱정 끝! 다한증 치료제</p>
+                                        <ul>
+                                            <li>땀 분비를 막아주는 바르는 다한증 치료제</li>
+                                            <li>겨드랑이, 손, 발의 다한증(땀과다증) 억제</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="portfolio-list-title">
+                            <h3>립케어<em>Lip Care</em></h3>
+                            <span class="material-icons">keyboard_arrow_down</span>
+                        </div>
+                        <div class="portfolio-list-inside">
+                            <div class="portfolio-detail">
+                                <div class="portfolio-section">
+                                    <div class="portfolio-section-title">
+                                        <h3>챕스틱</h3>
+                                    </div>
+                                    <div class="portfolio-section-field">
+                                        <img src="image/portfolio/2/portfolio_chpstick.png">
+                                        <p>건강한 립 케어의 시작</p>
+                                        <ul>
+                                            <li>비즈왁스, 라놀린 성분으로 수분과 영양 공급</li>
+                                            <li>파라벤 free</li>
+                                        </ul>
+                                        <div class="portfolio-line-up">
+                                            <div class="line-up-inside">
+                                                <h4>Line-up</h4>
+                                                <p>챕스틱 클래식(오리지널, 스트로베리, 체리, 스피어민트)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 푸 터 -->
+    <div class="footer">
+        <div class="l_wrapper">
+            <div class="footer-download">
+                <a href="#">회사소개서 다운로드</a>
+            </div>
+            <div class="footer-detail">
+                <p>서울특별시 용산구 한강대로 92, GSK컨슈머헬스케어 코리아 </p>
+                <p>Tel: 02-709-4114</p>
+            </div>
+            <div class="footer-copy">
+                <p>ⓒ2021 GSK Consumer Healthcare Korea.<br>All rights reserved.</p>
+            </div>    
+        </div>
+    </div>
+    
+    <!-- Tothetop -->
+    <button class="tothetop-btn">
+        <span class="material-icons">arrow_upward</span>
+    </button>
+    
+    <!-- 스 크 립 트 -->
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>epostbank</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../style/style.css">
+    <!-- 폰 트 -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- 스 크 립 트 -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js">
+    </script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="js/Counter-Up-master/jquery.counterup.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="l_wrapper">
+            <div class="header-line"></div>
+            <nav>
+                <ul class="header-box clearfix">
+                    <li>
+                        <div class="header-select">
+                            <select onchange="if(this.value) location.href=(this.value);">
+                                <option value="http://mecayours.co.kr/archive/01.autron/detail.html">현대오트론</option>
+                                <option selected value="http://mecayours.co.kr/archive/02.epostbank/detail.html">우체국보험</option>
+                                <option value="http://mecayours.co.kr/archive/03.ibk/detail.html">IBK</option>
+                                <option value="http://mecayours.co.kr/archive/04.gsk/detail.html">gsk</option>
+                                <option value="http://mecayours.co.kr/archive/05.oci/detail.html">OCI</option>
+                                <option value="http://mecayours.co.kr/archive/06.mdi/detail.html">MDI Medical</option>
+                                <option value="http://mecayours.co.kr/archive/07.sgiway/detail.html">SGI</option>
+                            </select>
+                            <span class="material-icons btn_more">expand_more</span>       
+                        </div>
+                    </li>
+                    <li>
+                        <div class="header-preview">
+                            <a href="./sub.html">미리보기</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="title">
+        <div class="l_wrapper">
+            <h1>우체국보험</h1>    
+        </div>
+    </div>
+    
+    <div class="contents">
+        <div class="l_wrapper">
+            <section>
+                <div>
+                    <div class="l_wrapper">
+                        <h2>Publishing</h2>
+                        <div class="content-inside">
+                            <ul>
+                                <li>Version : 1.0</li>
+                                <li>Date : 2021.04.15</li>
+                                <li>Author : Son Seunghyun(shson@mecayours.co.kr)</li>
+                            </ul>
+                    </div>       
+                    </div>
+                </div>
+            </section>
+            <section>
+               <div class="l_wrapper">
+                    <h2>Design system</h2>
+                    <div class="content-inside">
+                        <ul>
+                            <li>Font : Noto Sans KR</li>
+                            <li>Main color : #fbede4</li>
+                            <li>Grid : 360px</li>
+                        </ul>
+                    </div>       
+               </div>
+            </section>
+            <section>
+               <div class="l_wrapper">
+                    <h2>Issue</h2>
+                    <div class="content-inside">
+                        <ul>
+                            <li>
+                                <h3>Issue 1</h3>
+                                <p>1. 메인페이지 슬라이드</p>
+                                <p>- slick slider 사용</p>
+                                <div class="issue-inside">
+                                    <p>$('.main-slide-container').slick({
+                                        arrows: false
+                                        });<br>
+                                        $('.main-slide-container button').click(function(){
+                                        $('.main-slide-container').slick('slickGoTo', 1);
+                                    });</p>
+                                </div>
+                            </li>
+                            <li>
+                                <h3>Issue 2</h3>
+                                <p>2. 서브페이지 하단 번호</p>
+                                <p>- 서브페이지 하단 이미지에 이미지 번호 작성을 jquery로 구성. 현재는 이미지 자체에 번호가 작성되어있음.</p>
+                            </li>
+                        </ul>
+                    </div>       
+               </div>
+            </section>
+        </div>    
+    </div>
+    
+    <!-- 스 크 립 트 -->
+    <script src="js/script.js"></script>
+</body>
+</html>
