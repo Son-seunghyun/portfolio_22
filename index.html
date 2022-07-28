@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
     <title>웹 퍼블리셔 손승현 포트폴리오</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -23,9 +24,9 @@
 
 </head>
 <body>
-	<header>
+	<header class="header">
 		<div class="l_wrapper">
-			<nav class="header-nav">
+			<nav class="header__nav">
 				<ul>
 					<li><a href="#main" class="color">Home</a></li>
 					<li><a href="#about">About</a></li>
@@ -34,12 +35,12 @@
 					<li><a href="/work/archive/index.html" target="_blank">archive</a></li>
 				</ul>
 			</nav>
-			<!-- 반응형 메뉴-->
-			<button id="header-menu">
+			<!-- 모바일 메뉴-->
+			<button class="header__btn" id="header-menu">
 				<span class="material-icons">menu</span>
 			</button>
-			<div class="header-overlay">
-				<nav class="header-nav_mb">
+			<div class="header__overlay">
+				<nav class="header__nav--mb">
 					<ul>
 						<li><a href="#main">Home</a></li>
 						<li><a href="#about">About</a></li>
