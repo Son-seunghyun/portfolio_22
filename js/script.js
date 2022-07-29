@@ -9,7 +9,7 @@
 			else{
 				$(this).find('span').text('menu');
 			}
-			$('.header-overlay').toggleClass('visible');
+			$('.header__overlay').toggleClass('visible');
 		});
 		
 		//main scroll
@@ -30,35 +30,35 @@
 			var contactScroll =$('.contact').offset().top;
 
 			if( nowScroll >= 0 &&  nowScroll < aboutScroll){
-				$('.header-nav li:nth-child(1) a').addClass('active')
+				$('.header__nav li:nth-child(1) a').addClass('active')
 				.parent().siblings().find('a').removeClass('active');	
 				
-				$('.header-nav li a').css('color','#fff');
-				$('header').removeClass('shadow');	
+				$('.header__nav li a').css('color','#fff');
+				$('.header').removeClass('shadow');	
 				$('#header-menu span').css('color','#fff');
 			}
 			else if( nowScroll >= aboutScroll &&  nowScroll < workScroll){
-				$('.header-nav li:nth-child(2) a').addClass('active')
+				$('.header__nav li:nth-child(2) a').addClass('active')
 				.parent().siblings().find('a').removeClass('active');
 				
-				$('.header-nav li a').css('color','#000');
-				$('header').addClass('shadow');
+				$('.header__nav li a').css('color','#000');
+				$('.header').addClass('shadow');
 				$('#header-menu span').css('color','#000');	
 			}
 			else if( nowScroll >= workScroll &&  nowScroll < contactScroll){
-				$('.header-nav li:nth-child(3) a').addClass('active')
+				$('.header__nav li:nth-child(3) a').addClass('active')
 					.parent().siblings().find('a').removeClass('active');	
 				
-				$('.header-nav li a').css('color','#fff');
-				$('header').removeClass('shadow');	
+				$('.header__nav li a').css('color','#fff');
+				$('.header').removeClass('shadow');	
 				$('#header-menu span').css('color','#fff');
 			}
 			else if( nowScroll >= contactScroll){
-				$('.header-nav li:nth-child(4) a').addClass('active')
+				$('.header__nav li:nth-child(4) a').addClass('active')
 				.parent().siblings().find('a').removeClass('active');	
 				
-				$('.header-nav li a').css('color','#fff');
-				$('header').removeClass('shadow');	
+				$('.header__nav li a').css('color','#fff');
+				$('.header').removeClass('shadow');	
 				$('#header-menu span').css('color','#fff');
 			}
 		});
